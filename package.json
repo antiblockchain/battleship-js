@@ -1,0 +1,22 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Battleship for JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antiblockchain/battleship-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antiblockchain/battleship-js/issues"
+  },
+  "homepage": "https://github.com/antiblockchain/battleship-js#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

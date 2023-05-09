@@ -1,0 +1,1 @@
+const battleship = require('./index')

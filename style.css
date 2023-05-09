@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.option-container {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.destroyer {
+    background-color: brown;
+    color: brown;
+}
+.submarine {
+    background-color: green;
+}
+.cruiser {
+    background-color: blue;
+}
+.battleship {
+    background-color: orange;
+}
+.carrier {
+    background-color: pink;
+}
+.game-board {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hover {
+    background-color: gray;
+}
+
+.boom {
+    background-color: red;
+}
+.empty {
+    background-color: gray;
+}
+
+#computer .destroyer,
+#computer .submarine,
+#computer .cruiser,
+#computer, battleship,
+#computer .carrier {
+    background-color: pink;
+}
