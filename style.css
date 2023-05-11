@@ -2,6 +2,12 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .option-container {
@@ -9,18 +15,22 @@ body {
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
+    background-color: gray;
+    gap: 50px;
 }
 
 .destroyer {
     background-color: brown;
-    color: brown;
 }
 .submarine {
     background-color: green;
 }
 .cruiser {
     background-color: blue;
+
 }
 .battleship {
     background-color: orange;
@@ -28,11 +38,46 @@ body {
 .carrier {
     background-color: pink;
 }
+
+.destroyer-preview {
+    width: 20px;
+    height: 10px;
+    margin: 3px;
+}
+.submarine-preview {
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+.cruiser-preview {
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+.battleship-preview {
+    width: 40px;
+    height: 10px;
+    margin: 3px;
+}
+.carrier-preview {
+    width: 50px;
+    height: 10px;
+    margin: 3px;
+}
+
 .game-board {
     width: 200px;
     height: 200px;
     display: flex;
+
     flex-wrap: wrap;
+}
+#gameboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
 }
 
 .hover {
